@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fondox {
+  @apply object-center object-cover h-full w-full opacity-50
+}
+
+.contentimage {
+  @apply absolute -z-10 w-full h-full
+}
