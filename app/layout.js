@@ -6,12 +6,12 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Laboratorio Clínico Shadday',
-  description: 'Laboratorio Clínico',
+  description: 'Laboratorio Clínico, hematología, química sanguínea, pruebas hormonales, marcadores tumorales, uroanálisis, coproanálisis. San Cristóbal, Táchira, Venezuela.',
 }
 
 export default function RootLayout ({ children }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
