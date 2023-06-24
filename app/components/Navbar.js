@@ -6,16 +6,16 @@ export default function Navbar () {
     <div className="flex items-center fixed top-0 w-full px-3 md:px-20 justify-between overflow-hidden bg-indigo-300">
       <Image className="m-3 justify-start" src="/logo.svg" width={120} height={40} alt="logo" />
       <nav className="hidden md:flex font-medium">
-        <Link className="transition-colors duration-500 text-indigo-600 hover:text-indigo-900 hover:bg-indigo-200 px-10 py-2 hover:rounded-sm" href="/">
+        <Link className="transition-colors duration-500 text-indigo-600 hover:text-indigo-900 hover:bg-indigo-200 px-10 py-2 hover:rounded-sm" href="#inicio">
           Inicio
         </Link>
-        <Link className="transition-colors duration-500 text-indigo-600 hover:text-indigo-900 hover:bg-indigo-200 px-10 py-2 hover:rounded-sm" href="/nosotros">
+        <Link className="transition-colors duration-500 text-indigo-600 hover:text-indigo-900 hover:bg-indigo-200 px-10 py-2 hover:rounded-sm" href="#nosotros">
           Nosotros
         </Link>
-        <Link className="transition-colors duration-500 px-10 py-2 text-indigo-600 hover:text-indigo-900 hover:bg-indigo-200 hover:rounded-sm" href="/servicios">
+        <Link className="transition-colors duration-500 px-10 py-2 text-indigo-600 hover:text-indigo-900 hover:bg-indigo-200 hover:rounded-sm" href="#servicios">
           Servicios
         </Link>
-        <Link className="transition-colors duration-500 px-10 py-2 text-indigo-600 hover:text-indigo-900 hover:bg-indigo-200 hover:rounded-sm" href="/contacto">
+        <Link className="transition-colors duration-500 px-10 py-2 text-indigo-600 hover:text-indigo-900 hover:bg-indigo-200 hover:rounded-sm" href="#contacto">
           Contacto
         </Link>
       </nav>

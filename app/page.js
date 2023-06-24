@@ -15,7 +15,7 @@ export default function Home () {
           </div>
         </Link>
       </div>
-      <section>
+      <section id="inicio">
         <div className="h-screen">
           <div className="contentimage">
             <Image
@@ -73,23 +73,6 @@ export default function Home () {
         </div>
       </section>
       <section>
-        <div className="flex flex-wrap justify-center space-x-10 pt-20">
-          <Image
-            className="rounded-md"
-            src="/images/laboratorio_clinico.jpg"
-            width={615}
-            height={542} alt="pipeta"
-          />
-          <div className="flex flex-col items-center justify-center md:w-1/2">
-            <h1 className="text-2xl font-bold">¿Quiénes Somos?</h1>
-            <br />
-            <p className="px-5">Somos un laboratorio clínico que ofrece servicios de análisis clínicos, con el fin de satisfacer las necesidades de nuestros clientes, brindando un servicio de calidad, confiable y oportuno, con personal altamente calificado y tecnología de punta.</p>
-            <br />
-            <Link href="/nosotros" className="bg-indigo-700 hover:bg-indigo-300 hover:text-indigo-950 text-white transition-colors duration-500 px-5 py-3 font-medium lg:text-xl rounded-full">Conócenos</Link>
-          </div>
-        </div>
-      </section>
-      <section>
         <div className="flex flex-wrap-reverse justify-center space-x-10 pt-20">
           <div className="flex flex-col items-center justify-center md:w-1/2">
             <h1 className="text-2xl font-bold">Covid 19</h1>
@@ -108,8 +91,6 @@ export default function Home () {
             <br />
             <p>Para más información sobre COVID- 19, y todos los procedimientos haga click en el link de abajo.
             </p>
-            <br />
-            <Link href="/covid" className="bg-indigo-700 hover:bg-indigo-300 hover:text-indigo-950 text-white transition-colors duration-500 px-5 py-3 font-medium lg:text-xl rounded-full">Más información</Link>
           </div>
           <Image
             className="rounded-md bg-indigo-300 border-2 border-indigo-950"
@@ -119,7 +100,22 @@ export default function Home () {
           />
         </div>
       </section >
-      <section>
+      <section id="nosotros" className="pt-10">
+        <div className="flex flex-wrap justify-center space-x-10 pt-20">
+          <Image
+            className="rounded-md"
+            src="/images/laboratorio_clinico.jpg"
+            width={615}
+            height={542} alt="pipeta"
+          />
+          <div className="flex flex-col items-center justify-center md:w-1/2">
+            <h1 className="text-2xl font-bold">¿Quiénes Somos?</h1>
+            <br />
+            <p className="px-5">Somos un laboratorio clínico que ofrece servicios de análisis clínicos, con el fin de satisfacer las necesidades de nuestros clientes, brindando un servicio de calidad, confiable y oportuno, con personal altamente calificado y tecnología de punta.</p>
+          </div>
+        </div>
+      </section>
+      <section id="servicios">
         <div className="container m-auto">
           <h1 className="text-4xl font-bold text-center pt-20">Nuestros Servicios</h1>
           <div className="flex flex-wrap justify-center mx-10">
@@ -154,7 +150,7 @@ export default function Home () {
           </div>
         </div>
       </section>
-      <section>
+      <section id="">
         <div className="flex flex-col justify-center">
           <h1 className="text-center text-4xl font-bold py-10">¿Por qué elegir Laboratorio Clínico Shadday?</h1>
           <div className="flex flex-wrap">
@@ -198,9 +194,27 @@ export default function Home () {
                 <p>Brindamos una atención personalizada a cada uno de nuestros pacientes.</p>
               </div>
             </div>
-            <div className="w-[450px] h-[300px] bg-gray-500 justify-center text-center">
+            <div className="wc-[450px] h-[300px] bg-gray-500 justify-center text-center">
               <p>Imagen</p>
             </div>
+          </div>
+        </div>
+      </section>
+      <section id="contacto">
+        <div className="h-screen">
+          <div className="absolute -z-10 w-full">
+            <Image
+              className="fondox"
+              src="/images/contactenos.jpg"
+              alt="principal"
+              width={1024}
+              height={683}
+            />
+          </div>
+          <div className="flex flex-col items-center justify-center pt-10 h-[90%]">
+            <h1 className="text-3xl text-blue-800 font-bold">laboratorioclinicoshadday@gmail.com</h1>
+            <br />
+            <h1 className="text-3xl text-blue-800 font-bold">(0276) 999-xx-xx</h1>
           </div>
         </div>
       </section>
