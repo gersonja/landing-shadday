@@ -3,6 +3,7 @@ import Link from "next/link";
 
 export default function Navbar () {
   return (
+
     <div className="flex items-center fixed top-0 w-full px-3 md:px-20 justify-between overflow-hidden bg-indigo-300">
       <Image className="m-3 justify-start" src="/logo.svg" width={120} height={40} alt="logo" />
       <nav className="hidden md:flex font-medium">
