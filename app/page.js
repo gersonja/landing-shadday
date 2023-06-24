@@ -215,6 +215,10 @@ export default function Home () {
             <h1 className="text-3xl text-blue-800 font-bold">laboratorioclinicoshadday@gmail.com</h1>
             <br />
             <h1 className="text-3xl text-blue-800 font-bold">(0276) 999-xx-xx</h1>
+            <br />
+            <div className="map-responsive">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3953.3165333282473!2d-72.229882785222!3d7.75621419440987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwNDUnMjIuNCJOIDcywrAxMyczOS43Ilc!5e0!3m2!1ses-419!2sec!4v1687621089895!5m2!1ses-419!2sec" width="400" height="300" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            </div>
           </div>
         </div>
       </section>
