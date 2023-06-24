@@ -200,7 +200,7 @@ export default function Home () {
           </div>
         </div>
       </section>
-      <section id="#contacto">
+      <section id="contacto">
         <div className="h-screen">
           <div className="absolute -z-10 w-full">
             <Image
