@@ -150,12 +150,12 @@ export default function Home () {
           </div>
         </div>
       </section>
-      <section id="">
+      <section>
         <div className="flex flex-col justify-center">
           <h1 className="text-center text-4xl font-bold py-10">¿Por qué elegir Laboratorio Clínico Shadday?</h1>
-          <div className="flex flex-wrap">
+          <div className="flex flex-wrap justify-center">
             <div className="w-[450px] h-[300px] bg-gray-500 justify-center text-center">
-              <p>Imagen</p>
+              <Image src="/images/AdobeStock_110111178-1024x683.jpeg.webp" width={1024} height={683} alt="1178" />
             </div>
             <div className="flex flex-col justify-center text-center w-[450px] h-[300px]">
               <div>
@@ -165,7 +165,7 @@ export default function Home () {
               </div>
             </div>
             <div className="w-[450px] h-[300px] bg-gray-500 justify-center text-center">
-              <p>Imagen</p>
+              <Image src="/images/AdobeStock_158429858-1024x683.jpeg.webp" width={1024} height={683} alt="9858" />
             </div>
             <div className="flex flex-col justify-center text-center w-[450px] h-[300px]">
               <div>
@@ -175,7 +175,7 @@ export default function Home () {
               </div>
             </div>
             <div className="w-[450px] h-[300px] bg-gray-500 justify-center text-center">
-              <p>Imagen</p>
+              <Image src="/images/AdobeStock_268581621-1024x683.jpeg.webp" width={1024} height={683} alt="1621" />
             </div>
             <div className="flex flex-col justify-center text-center w-[450px] h-[300px]">
               <div>
@@ -184,8 +184,8 @@ export default function Home () {
                 <p>Nuestro personal está altamente calificado para brindar un servicio de calidad y confiable.</p>
               </div>
             </div>
-            <div className="w-[450px] h-[300px] bg-gray-500 justify-center text-center">
-              <p>Imagen</p>
+            <div className="w-[450px] h-auto justify-center text-center">
+              <Image src="/images/pipeta.jpg" width={780} height={420} alt="pipeta" />
             </div>
             <div className="flex flex-col justify-center text-center w-[450px] h-[300px]">
               <div>
@@ -193,9 +193,6 @@ export default function Home () {
                 <br />
                 <p>Brindamos una atención personalizada a cada uno de nuestros pacientes.</p>
               </div>
-            </div>
-            <div className="wc-[450px] h-[300px] bg-gray-500 justify-center text-center">
-              <p>Imagen</p>
             </div>
           </div>
         </div>
@@ -211,13 +208,17 @@ export default function Home () {
               height={683}
             />
           </div>
-          <div className="flex flex-col items-center justify-center pt-10 h-[90%]">
-            <h1 className="text-3xl text-blue-800 font-bold">laboratorioclinicoshadday@gmail.com</h1>
-            <br />
-            <h1 className="text-3xl text-blue-800 font-bold">(0276) 999-xx-xx</h1>
-            <br />
-            <div className="map-responsive">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3953.3165333282473!2d-72.229882785222!3d7.75621419440987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwNDUnMjIuNCJOIDcywrAxMyczOS43Ilc!5e0!3m2!1ses-419!2sec!4v1687621089895!5m2!1ses-419!2sec" width="400" height="300" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+          <div className="flex items-end justify-center pt-10 h-[90%]">
+            <div className="flex items-center">
+              <div className="flex justify-center items-center px-10">
+                <h1 className="text-3xl text-blue-800 font-bold">laboratorioclinicoshadday@gmail.com</h1>
+              </div>
+              <div className="flex justify-center items-center px-10">
+                <h1 className="text-3xl text-blue-800 font-bold">(0276) 999-xx-xx</h1>
+              </div>
+              <div className="map-responsive px-10">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3953.3165333282473!2d-72.229882785222!3d7.75621419440987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwNDUnMjIuNCJOIDcywrAxMyczOS43Ilc!5e0!3m2!1ses-419!2sec!4v1687621089895!5m2!1ses-419!2sec" width="400" height="300" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+              </div>
             </div>
           </div>
         </div>
